@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Lo Encontré Barato | Ofertas y descuentos</title>
+
+  <meta name="description"
+        content="Encontramos ofertas, descuentos y cupones para que tú no tengas que buscarlos. Entra gratis al canal de Lo Encontré Barato.">
+
+  <meta name="theme-color" content="#f6b800">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top, #fff6d8 0%, #ffffff 38%, #f7f7f7 100%);
+      color: #121212;
+      display: flex;
+      justify-content: center;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 520px;
+      min-height: 100vh;
+      padding: 28px 22px 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .brand {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .brand-icon {
+      width: 82px;
+      height: 82px;
+      background: #f6b800;
+      border: 4px solid #111;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 14px;
+      font-size: 38px;
+      box-shadow: 5px 6px 0 #111;
+    }
+
+    .brand-name {
+      font-size: 27px;
+      font-weight: 900;
+      letter-spacing: -1px;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    .brand-name span {
+      display: inline-block;
+      background: #f6b800;
+      padding: 4px 8px;
+      margin-top: 5px;
+      border-radius: 6px;
+    }
+
+    .hero {
+      text-align: center;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      background: #111;
+      color: #fff;
+      padding: 7px 14px;
+      border-radius: 50px;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: clamp(38px, 11vw, 56px);
+      line-height: .96;
+      font-weight: 1000;
+      letter-spacing: -2px;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    h1 .yellow {
+      color: #e6a900;
+    }
+
+    .subheadline {
+      font-size: 19px;
+      line-height: 1.45;
+      color: #444;
+      max-width: 430px;
+      margin: 0 auto 25px;
+    }
+
+    .subheadline strong {
+      color: #111;
+    }
+
+    .benefits {
+      background: #fff;
+      border: 1px solid #e4e4e4;
+      border-radius: 18px;
+      padding: 17px 18px;
+      margin: 0 auto 24px;
+      text-align: left;
+      box-shadow: 0 10px 30px rgba(0,0,0,.06);
+    }
+
+    .benefit {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 8px 0;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .benefit-icon {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: #fff2bf;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .cta {
+      display: block;
+      width: 100%;
+      background: #20b75a;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      padding: 19px 15px;
+      border-radius: 14px;
+      font-size: 18px;
+      font-weight: 900;
+      box-shadow: 0 7px 0 #12813d,
+                  0 12px 25px rgba(32,183,90,.25);
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+
+    .cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 9px 0 #12813d,
+                  0 14px 28px rgba(32,183,90,.30);
+    }
+
+    .cta:active {
+      transform: translateY(4px);
+      box-shadow: 0 3px 0 #12813d;
+    }
+
+    .cta-small {
+      display: block;
+      margin-top: 5px;
+      font-size: 12px;
+      font-weight: 500;
+      opacity: .9;
+    }
+
+    .trust {
+      margin-top: 16px;
+      text-align: center;
+      font-size: 13px;
+      color: #666;
+    }
+
+    .closing {
+      margin-top: 27px;
+      padding-top: 22px;
+      border-top: 1px solid #ddd;
+      text-align: center;
+      font-size: 15px;
+      color: #555;
+    }
+
+    .closing strong {
+      color: #111;
+      background: linear-gradient(
+        transparent 60%,
+        #ffd84d 60%
+      );
+    }
+
+    @media (max-width: 380px) {
+      .page {
+        padding-left: 17px;
+        padding-right: 17px;
+      }
+
+      .brand {
+        margin-bottom: 22px;
+      }
+
+      .brand-icon {
+        width: 70px;
+        height: 70px;
+        font-size: 32px;
+      }
+
+      .subheadline {
+        font-size: 17px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="page">
+
+    <div class="brand">
+      <div class="brand-icon">🔎</div>
+
+      <div class="brand-name">
+        LO ENCONTRÉ<br>
+        <span>BARATO</span>
+      </div>
+    </div>
+
+    <section class="hero">
+
+      <div class="eyebrow">
+        🔎 Nosotros buscamos por ti
+      </div>
+
+      <h1>
+        NO PAGUES<br>
+        <span class="yellow">DE MÁS.</span>
+      </h1>
+
+      <p class="subheadline">
+        Encontramos <strong>ofertas, descuentos y cupones</strong>
+        para que tú no tengas que estar buscándolos todo el día.
+      </p>
+
+      <div class="benefits">
+
+        <div class="benefit">
+          <div class="benefit-icon">🏷️</div>
+          <div>Cupones, descuentos y oportunidades.</div>
+        </div>
+
+        <div class="benefit">
+          <div class="benefit-icon">🔎</div>
+          <div>Nosotros hacemos la búsqueda.</div>
+        </div>
+
+        <div class="benefit">
+          <div class="benefit-icon">💰</div>
+          <div>Tú decides si realmente te conviene.</div>
+        </div>
+
+      </div>
+
+      <a
+        id="whatsapp-cta"
+        class="cta"
+        href="https://whatsapp.com/channel/0029VbD34yYKLaHiNtbuol3i"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        💬 ENTRAR GRATIS AL CANAL
+        <span class="cta-small">Abrir en WhatsApp →</span>
+      </a>
+
+      <p class="trust">
+        ✓ Es gratis &nbsp; · &nbsp; ✓ Sin compromiso
+      </p>
+
+      <div class="closing">
+        <strong>Encontrar la oferta es ganar.</strong>
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <script>
+    /*
+      Preparado para medición futura con Meta Pixel.
+
+      Cuando instalemos el Pixel, este botón podrá registrar
+      cuántas personas pasan de la landing al canal de WhatsApp.
+    */
+
+    document
+      .getElementById('whatsapp-cta')
+      .addEventListener('click', function () {
+
+        if (typeof fbq === 'function') {
+          fbq('trackCustom', 'WhatsAppChannelClick');
+        }
+
+      });
+  </script>
+
+</body>
+</html>
